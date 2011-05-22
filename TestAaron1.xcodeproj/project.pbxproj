@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078CCE421389C06600822003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078CCE411389C06600822003 /* UIKit.framework */; };
+		078CCE441389C06600822003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078CCE431389C06600822003 /* Foundation.framework */; };
+		078CCE461389C06600822003 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078CCE451389C06600822003 /* CoreGraphics.framework */; };
+		078CCE4C1389C06600822003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 078CCE4A1389C06600822003 /* InfoPlist.strings */; };
+		078CCE4F1389C06600822003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 078CCE4E1389C06600822003 /* main.m */; };
+		078CCE521389C06600822003 /* TestAaron1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 078CCE511389C06600822003 /* TestAaron1AppDelegate.m */; };
+		078CCE551389C06700822003 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078CCE531389C06700822003 /* MainWindow.xib */; };
+		078CCE581389C06700822003 /* TestAaron1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078CCE571389C06700822003 /* TestAaron1ViewController.m */; };
+		078CCE5B1389C06700822003 /* TestAaron1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 078CCE591389C06700822003 /* TestAaron1ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		078CCE3D1389C06600822003 /* TestAaron1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAaron1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078CCE411389C06600822003 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		078CCE431389C06600822003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		078CCE451389C06600822003 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		078CCE491389C06600822003 /* TestAaron1-Info.plist */ = {isa = PBXFileReference; path = "TestAaron1-Info.plist"; sourceTree = "<group>"; };
+		078CCE4B1389C06600822003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		078CCE4D1389C06600822003 /* TestAaron1-Prefix.pch */ = {isa = PBXFileReference; path = "TestAaron1-Prefix.pch"; sourceTree = "<group>"; };
+		078CCE4E1389C06600822003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		078CCE501389C06600822003 /* TestAaron1AppDelegate.h */ = {isa = PBXFileReference; path = TestAaron1AppDelegate.h; sourceTree = "<group>"; };
+		078CCE511389C06600822003 /* TestAaron1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAaron1AppDelegate.m; sourceTree = "<group>"; };
+		078CCE541389C06700822003 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		078CCE561389C06700822003 /* TestAaron1ViewController.h */ = {isa = PBXFileReference; path = TestAaron1ViewController.h; sourceTree = "<group>"; };
+		078CCE571389C06700822003 /* TestAaron1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAaron1ViewController.m; sourceTree = "<group>"; };
+		078CCE5A1389C06700822003 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestAaron1ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078CCE3A1389C06600822003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078CCE421389C06600822003 /* UIKit.framework in Frameworks */,
+				078CCE441389C06600822003 /* Foundation.framework in Frameworks */,
+				078CCE461389C06600822003 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078CCE321389C06600822003 = {
+			isa = PBXGroup;
+			children = (
+				078CCE471389C06600822003 /* TestAaron1 */,
+				078CCE401389C06600822003 /* Frameworks */,
+				078CCE3E1389C06600822003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		078CCE3E1389C06600822003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078CCE3D1389C06600822003 /* TestAaron1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078CCE401389C06600822003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				078CCE411389C06600822003 /* UIKit.framework */,
+				078CCE431389C06600822003 /* Foundation.framework */,
+				078CCE451389C06600822003 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		078CCE471389C06600822003 /* TestAaron1 */ = {
+			isa = PBXGroup;
+			children = (
+				078CCE501389C06600822003 /* TestAaron1AppDelegate.h */,
+				078CCE511389C06600822003 /* TestAaron1AppDelegate.m */,
+				078CCE531389C06700822003 /* MainWindow.xib */,
+				078CCE561389C06700822003 /* TestAaron1ViewController.h */,
+				078CCE571389C06700822003 /* TestAaron1ViewController.m */,
+				078CCE591389C06700822003 /* TestAaron1ViewController.xib */,
+				078CCE481389C06600822003 /* Supporting Files */,
+			);
+			path = TestAaron1;
+			sourceTree = "<group>";
+		};
+		078CCE481389C06600822003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				078CCE491389C06600822003 /* TestAaron1-Info.plist */,
+				078CCE4A1389C06600822003 /* InfoPlist.strings */,
+				078CCE4D1389C06600822003 /* TestAaron1-Prefix.pch */,
+				078CCE4E1389C06600822003 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078CCE3C1389C06600822003 /* TestAaron1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078CCE5E1389C06700822003 /* Build configuration list for PBXNativeTarget "TestAaron1" */;
+			buildPhases = (
+				078CCE391389C06600822003 /* Sources */,
+				078CCE3A1389C06600822003 /* Frameworks */,
+				078CCE3B1389C06600822003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAaron1;
+			productName = TestAaron1;
+			productReference = 078CCE3D1389C06600822003 /* TestAaron1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078CCE341389C06600822003 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 078CCE371389C06600822003 /* Build configuration list for PBXProject "TestAaron1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 078CCE321389C06600822003;
+			productRefGroup = 078CCE3E1389C06600822003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078CCE3C1389C06600822003 /* TestAaron1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078CCE3B1389C06600822003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078CCE4C1389C06600822003 /* InfoPlist.strings in Resources */,
+				078CCE551389C06700822003 /* MainWindow.xib in Resources */,
+				078CCE5B1389C06700822003 /* TestAaron1ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078CCE391389C06600822003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078CCE4F1389C06600822003 /* main.m in Sources */,
+				078CCE521389C06600822003 /* TestAaron1AppDelegate.m in Sources */,
+				078CCE581389C06700822003 /* TestAaron1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		078CCE4A1389C06600822003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078CCE4B1389C06600822003 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		078CCE531389C06700822003 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078CCE541389C06700822003 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		078CCE591389C06700822003 /* TestAaron1ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078CCE5A1389C06700822003 /* en */,
+			);
+			name = TestAaron1ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		078CCE5C1389C06700822003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		078CCE5D1389C06700822003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		078CCE5F1389C06700822003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestAaron1/TestAaron1-Prefix.pch";
+				INFOPLIST_FILE = "TestAaron1/TestAaron1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		078CCE601389C06700822003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestAaron1/TestAaron1-Prefix.pch";
+				INFOPLIST_FILE = "TestAaron1/TestAaron1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078CCE371389C06600822003 /* Build configuration list for PBXProject "TestAaron1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078CCE5C1389C06700822003 /* Debug */,
+				078CCE5D1389C06700822003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078CCE5E1389C06700822003 /* Build configuration list for PBXNativeTarget "TestAaron1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078CCE5F1389C06700822003 /* Debug */,
+				078CCE601389C06700822003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 078CCE341389C06600822003 /* Project object */;
+}
