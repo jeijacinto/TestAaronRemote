@@ -23,14 +23,14 @@
 		078CCE411389C06600822003 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		078CCE431389C06600822003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		078CCE451389C06600822003 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		078CCE491389C06600822003 /* TestAaron1-Info.plist */ = {isa = PBXFileReference; path = "TestAaron1-Info.plist"; sourceTree = "<group>"; };
+		078CCE491389C06600822003 /* TestAaron1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestAaron1-Info.plist"; sourceTree = "<group>"; };
 		078CCE4B1389C06600822003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		078CCE4D1389C06600822003 /* TestAaron1-Prefix.pch */ = {isa = PBXFileReference; path = "TestAaron1-Prefix.pch"; sourceTree = "<group>"; };
+		078CCE4D1389C06600822003 /* TestAaron1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestAaron1-Prefix.pch"; sourceTree = "<group>"; };
 		078CCE4E1389C06600822003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		078CCE501389C06600822003 /* TestAaron1AppDelegate.h */ = {isa = PBXFileReference; path = TestAaron1AppDelegate.h; sourceTree = "<group>"; };
+		078CCE501389C06600822003 /* TestAaron1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAaron1AppDelegate.h; sourceTree = "<group>"; };
 		078CCE511389C06600822003 /* TestAaron1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAaron1AppDelegate.m; sourceTree = "<group>"; };
 		078CCE541389C06700822003 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		078CCE561389C06700822003 /* TestAaron1ViewController.h */ = {isa = PBXFileReference; path = TestAaron1ViewController.h; sourceTree = "<group>"; };
+		078CCE561389C06700822003 /* TestAaron1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAaron1ViewController.h; sourceTree = "<group>"; };
 		078CCE571389C06700822003 /* TestAaron1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAaron1ViewController.m; sourceTree = "<group>"; };
 		078CCE5A1389C06700822003 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestAaron1ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,7 +128,6 @@
 			isa = PBXProject;
 			buildConfigurationList = 078CCE371389C06600822003 /* Build configuration list for PBXProject "TestAaron1" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -276,6 +275,7 @@
 				078CCE601389C06700822003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
